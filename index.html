@@ -1,0 +1,149 @@
+
+<html>
+<head>
+    <title>EdTech</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .login-signup {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .login-signup button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .course-card {
+            width: 300px;
+            margin: 10px;
+            text-align: center;
+        }
+        .course-card img {
+            width: 100%;
+        }
+    
+        .right {
+            width: 50%;
+            margin: 0 auto;
+            transition: transform 0.2s; 
+        }
+        .image-between:hover {
+            transform: scale(1.1); 
+        }
+
+        
+        .login-form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 20px;
+          border-radius: 5px;
+          padding: 20px;
+          background-color:#abbff7
+        }
+
+        input[type=text], input[type=password] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display:inline-block;
+          border-radius:4px
+          border none
+          background-color#f1f1f165
+        }
+
+        input[type=submit] {
+          width:auto
+          background-color
+          color rgb(207, 227, 144)
+          padding 12px 20px
+          margin-top 10px
+          border none
+          border-radius 4px
+          cursor pointer
+        }
+
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="https://th.bing.com/th/id/R.9ce52b36a3d52f343d70192c86586e37?rik=F%2bky2ZvfBBzEdw&riu=http%3a%2f%2fnews.nwu.ac.za%2fsites%2fnews.nwu.ac.za%2ffiles%2ffiles%2fattach%2fInstitutional+News%2f201808%2fEdTech-ICON.png&ehk=GQgQqXgUPaMBTrrixhRS%2bYLLOOY40F0NcOZ7eJFGzzc%3d&risl=&pid=ImgRaw&r=0" alt="Logo">
+    </div>
+    <div class="header">
+        <h1> EdTech The career builder</h1>
+    </div>
+    
+    <div class="login-signup">
+      <form class="login-form" action="/action_page.php" method="post">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <input type="submit" value="Login">
+      </form>
+    </div>
+
+    <img class="image-between" src="https://www.guddehyahfoundation.org/wp-content/uploads/2022/08/bag-600x658.png" alt="education"class="right">
+    <div class="course">
+      <div style="display:flex;flex-wrap:no-wrap;overflow-x:auto;">
+        <div class="course-card">
+            <img src="https://i.pinimg.com/originals/40/43/bb/4043bbece876cb195530a2370e262fcc.jpg" alt="Course 1"class="center">
+            <h3>HTML</h3>
+            <p>Learn about the basics of HTML in this introductory course.</p>
+        </div>
+        <div class="course-card">
+            <img src="https://th.bing.com/th/id/R.97352187770c232aa050971db73bcc8e?rik=HGHhGuSGV8AO6A&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f05%2fC-PNG-Image.png&ehk=9aPOWvmyJL5J0fuNb0eTgQlem3IehdX8m3kxWwYnIpM%3d&risl=&pid=ImgRaw&r=0" alt="Course 2">
+            <h3>C++</h3>
+            <p>Explore the world of c++ in this comprehensive course.</p>
+        </div>
+        <div class="course-card">
+            <img src="https://www.theindianwire.com/wp-content/uploads/2018/06/java-logo-990x556.png" alt="Course 3">
+            <h3>JAVA</h3>
+            <p>Dive deep into the concepts of JAVA in this advanced course.</p>
+        </div>
+        <div class="course-card">
+            <img src="https://5.imimg.com/data5/XY/WD/GLADMIN-52182499/general-aptitude-1000x1000.png" alt="Course 4">
+            <h3>APPTITUDE</h3>
+            <p>Master the skills of APPTITUDE in this expert-level course.</p>
+        </div>
+        <div class="course-card">
+            <img src="https://www.milesweb.co.uk/blog/wp-content/uploads/2021/02/1-10-Lifesaver-Tools-for-Frontend-Developers.jpg" alt="Course 5">
+            <h3>FRONT END DEVELOPER</h3>
+            <p>Become a pro as a developer in this comprehensive course.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <h2>ABOUT</h2>
+      <p>AAo aur sikh ke jao bhai free free free........</p>
+    </div>
+    <div class="quotes">
+      <h2>QUOTES</h2>
+      <ul>
+        <li>"The only way to do great work is to love what you do." - mahan vyakti</li>
+        <li>"Be the change that you wish to see in the world." - baapu ne bola</li>
+        <li>"Believe you can and you're halfway there." - ye to khud ka he</li>
+      </ul>
+    </div>
+</body>
+</html> 

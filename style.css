@@ -1,0 +1,118 @@
+.logo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.logo img {
+    width: 100px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://wallpapercave.com/wp/wp3194644.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #4b0556;
+}
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: white;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.logo img {
+    width: 100px;
+}
+.side-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.side-logo img {
+    width: 100px;
+}
+.login-signup {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.login-signup button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #4CAF50;
+    transition: all 0.3s ease-in-out;
+}
+.login-signup button:hover {
+    background-color: #3e8e41;
+}
+.contact-notification {
+    display:flex; 
+    justify-content:center; 
+}
+.contact-notification button{
+   margin-left :10px; 
+   margin-right :10px; 
+   padding :10px; 
+   font-size :16px; 
+   cursor:pointer; 
+   border-radius :20px; 
+   border:none; 
+   color:white; 
+   background-color:#4CAF50; 
+   transition :all .3s ease-in-out; 
+}
+.contact-notification button:hover{
+   background-color:#b83838; 
+}
+.courses {
+    display:flex; 
+     flex-wrap :wrap; 
+     justify-content:center
+}
+.course-card {
+     width :300px; 
+     margin :10px; 
+     text-align:center; 
+     border-radius :10px; 
+     box-shadow :0 4px 8px 0 rgba(0,0,0,.2); 
+     transition :all .3s ease-in-out; 
+     background-color:#4CAF50
+}
+.course-card:hover{
+     box-shadow :0 8px 16px 0 rgba(0,0,0,.2); 
+     transform :scale(1.05)
+}
+.course-card img{
+     width :100%
+}
+
+.ABOUT, .QUOTES {
+     display:inline-block; 
+     vertical-align :top; 
+     width :45%; 
+     text-align:center; 
+     margin :20px
+}
+
+.ABOUT h2, .QUOTES h2 {
+     font-size :24px; 
+     color:hsl(100, 87%, 50%)
+}
+
+.ABOUT p, .QUOTES ul {
+     font-size :18px; 
+     color:hsl(195, 25%, 94%)
+}
